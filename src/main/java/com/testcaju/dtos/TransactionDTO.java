@@ -8,7 +8,7 @@ import java.math.BigDecimal;
 @Schema(description = "Transaction authorize payload")
 public record TransactionDTO(
         @Schema(description = "User identifier",
-                example = "4b24df10-4e9c-4d55-bd58-9c1bb6e41cd6")
+                example = "1")
         @NotNull
         String account,
         @Schema(description = "Transaction Value", example = "875.45")
